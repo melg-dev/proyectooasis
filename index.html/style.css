@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(0, 9%, 19%);
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px 25px;
+    padding: 27px;
+    margin: 7px;
+}
+
+.titulo {
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px gray;
+    background: linear-gradient(gray,transparent);
+    letter-spacing: 5px;
+
+}
+
+.foto{
+    width: 50%;
+    max-width: 400px;
+}
