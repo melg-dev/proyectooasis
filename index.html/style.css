@@ -57,3 +57,15 @@ h1 {
 	text-transform: uppercase;
 }
 
+.oasis {
+	background: linear-gradient(rgb(180, 164, 164),transparent);
+	color: #111;
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	letter-spacing: 5px;
+	margin-top: 0;
+	text-align: center;
+	text-shadow: 2px 2px 0px #fff 4px 4px 8px #00000066;
+	text-transform: uppercase;
+}
+
