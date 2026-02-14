@@ -1,33 +1,59 @@
-body{
-    background-color: hsl(0, 9%, 19%);
+body {
+	background:linear-gradient(to bottom,#a39b9b,#000000);
 }
 
 .contenedor {
-    text-align: center;
+	text-align: center;
 }
 
 .boton {
-    background-color: black;
-    color: white;
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 25px 25px;
-    padding: 27px;
-    margin: 7px;
+	background-color: black;
+	border-radius: 25px 25px;
+	color: white;
+	cursor: pointer;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 7px;
+	padding: 27px;
+	text-transform: uppercase;
+	transition: 0.3s ease;
+}
+
+.boton:hover {
+	box-shadow:0 0 20px #8aa0b8;
+	transform: scale(1.1);
+	transition: all 0.3s;
 }
 
 .titulo {
-    font-family: Helvetica, sans-serif;
-    font-size: 60px;
-    text-shadow: 2px 2px 5px gray;
-    background: linear-gradient(gray,transparent);
-    letter-spacing: 5px;
-
+	background: linear-gradient(rgb(180, 164, 164),transparent);
+	color: #111;
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	letter-spacing: 5px;
+	margin-top: 0;
+	text-shadow: 2px 2px 1px #fff 4px 4px 8px #00000066;
+	text-transform: uppercase;
 }
 
-.foto{
-    width: 50%;
-    max-width: 400px;
+.foto {
+	border-radius: 30px;
+	box-shadow: 0 4px 10px;
+	filter:drop-shadow(0 5px 8px);
+	max-width: 400px;
+	width: 50%;  
 }
+
+h1 {
+	background: linear-gradient(rgb(180, 164, 164),transparent);
+	color: #111;
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	letter-spacing: 5px;
+	margin-top: 0;
+	text-align: center;
+	text-shadow: 2px 2px 0px #fff 4px 4px 8px #00000066;
+	text-transform: uppercase;
+}
+
